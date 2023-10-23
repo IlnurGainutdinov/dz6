@@ -5,6 +5,10 @@ import Model.DataService;
 import Model.EmployeeService;
 import View.EmployeeView;
 
+/**
+ * Dependency inversion principle(классы работают через контроллер)
+ */
+
 public class Controller {
     DataService dataService;
     EmployeeView employeeView;

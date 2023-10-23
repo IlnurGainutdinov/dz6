@@ -1,10 +1,13 @@
 package Data;
 
+/**
+ * Single responsibility principle(класс имеет одну ответственность и это информация о работнике)
+ */
 public class Employee {
 
-    int employeeId;
-    String fio;
-    String birthDate;
+    private int employeeId;
+    private String fio;
+    private String birthDate;
 
     public Employee(String fio, String birthDate,int employeeId) {
         this.employeeId = employeeId;
@@ -12,29 +15,6 @@ public class Employee {
         this.birthDate = birthDate;
     }
 
-    public int getEmployeeId() {
-        return employeeId;
-    }
-
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
-    }
-
-    public String getFio() {
-        return fio;
-    }
-
-    public void setFio(String fio) {
-        this.fio = fio;
-    }
-
-    public String getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(String birthDate) {
-        this.birthDate = birthDate;
-    }
 
     @Override
     public String toString() {

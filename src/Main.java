@@ -1,4 +1,5 @@
 import Controller.Controller;
+import Data.Employee;
 import View.EmployeeView;
 
 public class Main {
